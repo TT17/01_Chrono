@@ -1,0 +1,59 @@
+@charset "UTF-8";
+/* CSS Document */
+ 
+/* Portrait */
+@media screen and (orientation:portrait) 
+{
+	html { background: url(chrono_portrait.jpg) 0% 0% no-repeat; }
+    body {opacity: 1; }
+	/* Button */
+	button
+	{
+		font-size: 20px;
+		background-color:#909090; 
+		height: 75px; 
+		width: 105px;
+		margin-top: 40%;
+		
+	}
+	#showtm
+	{
+		font-size:50px; 
+		font-weight:800; 
+		color:#000000; 
+		position:absolute; 
+		top:6%; 
+		left:5%;
+	}
+}
+
+/* Landscape */
+@media screen and (orientation:landscape) 
+{
+	html { background: url(chrono_landscape.jpg) 0% 0% no-repeat; }
+
+    body {opacity: 1; }
+	/* Button */
+	button
+	{
+		font-size: 20px;
+		background-color:#D1BA90; 
+		height: 75px; 
+		width: 150px;
+		display: block;
+	}
+	#showtm
+	{
+		font-size:50px; 
+		font-weight:800; 
+		color:#000000; 
+		position:absolute; 
+		top:15%; 
+		left:31%;
+	}
+}
+
+/*html { background: url(chrono_landscape.jpg) 0% 0% no-repeat; }
+body { background: url(chrono_portait.jpg) 0% 0% no-repeat; }*/
+
+
